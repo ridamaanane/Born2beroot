@@ -1,3 +1,54 @@
+# Born2BeRoot Project Overview
+
+## Project Concept
+System administration and virtualization project focusing on Linux server configuration and security.
+
+## Part 1: Operating System Setup
+### Core Objectives
+- Install minimal Debian/Rocky Linux
+- Configure secure system environment
+- Implement advanced partition strategies
+- Set up LVM (Logical Volume Management)
+- Configure strong user/group permissions
+
+### Technical Requirements
+- Specific disk partitioning scheme
+- No graphical interface
+- UFW firewall configuration
+- SSH service management
+- System hardening techniques
+
+## Part 2: Monitoring Script (monitoring.sh)
+
+### Monitoring Script Functionality
+Comprehensive system information collector:
+
+#### System Metrics
+- Architecture details
+- CPU information
+  - Physical/virtual CPU count
+- Memory utilization
+- Disk usage
+- CPU load
+- Boot timestamp
+- LVM status
+- Network connections
+- Active user sessions
+- Network interface details
+- Sudo command tracking
+
+#### Technical Implementation
+- Uses Linux command-line utilities
+- Real-time metric collection
+- Broadcasts system report to users
+
+### Key Configuration Points
+- Secure information display
+- Automated periodic execution
+- Minimal system overhead
+- Standardized reporting format
+
+-------------------------------------------------------------
 # Monitoring Script Detailed Explanation
 
 ## Purpose
